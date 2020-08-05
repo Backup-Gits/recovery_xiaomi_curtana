@@ -59,9 +59,8 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/curtana
 TARGET_KERNEL_CONFIG := curtana_defconfig
 
 # Platform
-# Fix this
-#TARGET_BOARD_PLATFORM := 
-#TARGET_BOARD_PLATFORM_GPU := 
+TARGET_BOARD_PLATFORM := atoll
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno618
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := curtana
