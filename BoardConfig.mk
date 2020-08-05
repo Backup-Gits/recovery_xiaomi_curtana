@@ -66,7 +66,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno618
 TARGET_OTA_ASSERT_DEVICE := curtana
 
 # Partitions
-#BOARD_RECOVERYIMAGE_PARTITION_SIZE := 134217728 # This is the maximum known partition size, but it can be higher, so we just omit it
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 134217728
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
