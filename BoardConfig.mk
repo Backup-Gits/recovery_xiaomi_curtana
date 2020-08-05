@@ -64,6 +64,7 @@ TARGET_KERNEL_CONFIG := curtana_defconfig
 # Platform
 TARGET_BOARD_PLATFORM := atoll
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno618
+TARGET_USES_UEFI := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := curtana
